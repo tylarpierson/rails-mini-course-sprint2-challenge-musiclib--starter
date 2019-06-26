@@ -46,15 +46,15 @@
 
 #         describe "artist albums" do
 #           context "valid routes" do
-#             it { expect(:get => "/api/v1/artists/1/albums").to route_to("api/v1/artists/albums#index", :artist_id => "1") }
+#             it { expect(:get => "/api/v1/artists/1/albums").to route_to("api/v1/albums#index", :artist_id => "1") }
 #           end
 
 #           context "invalid routes" do
-#             it { expect(:post => "/api/v1/artists/1/albums").not_to route_to("api/v1/artists/albums#create", :artist_id => "1") }
-#             it { expect(:get => "/api/v1/artists/1/albums/1").not_to route_to("api/v1/artists/albums#show", :artist_id => "1", :id => "1") }
-#             it { expect(:put => "/api/v1/artists/1/albums/1").not_to route_to("api/v1/artists/albums#update", :artist_id => "1", :id => "1") }
-#             it { expect(:patch => "/api/v1/artists/1/albums/1").not_to route_to("api/v1/artists/albums#update", :artist_id => "1", :id => "1") }
-#             it { expect(:delete => "/api/v1/artists/1/albums/1").not_to route_to("api/v1/artists/albums#delete", :artist_id => "1", :id => "1") }
+#             it { expect(:post => "/api/v1/artists/1/albums").not_to route_to("api/v1/albums#create", :artist_id => "1") }
+#             it { expect(:get => "/api/v1/artists/1/albums/1").not_to route_to("api/v1/albums#show", :artist_id => "1", :id => "1") }
+#             it { expect(:put => "/api/v1/artists/1/albums/1").not_to route_to("api/v1/albums#update", :artist_id => "1", :id => "1") }
+#             it { expect(:patch => "/api/v1/artists/1/albums/1").not_to route_to("api/v1/albums#update", :artist_id => "1", :id => "1") }
+#             it { expect(:delete => "/api/v1/artists/1/albums/1").not_to route_to("api/v1/albums#delete", :artist_id => "1", :id => "1") }
 #           end
 #         end
 #       end
