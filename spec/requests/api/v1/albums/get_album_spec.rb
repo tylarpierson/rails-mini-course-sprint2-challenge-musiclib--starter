@@ -2,7 +2,9 @@ require 'rails_helper'
 
 RSpec.describe "Get Album", type: :request do
   describe "GET /api/v1/albums/:id" do
-    let(:album) { # set up an album to get }
+    let(:album) {
+      # set up an album to get
+    }
 
     it "gets the album" do
       get api_v1_album_path(album)
