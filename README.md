@@ -1,4 +1,4 @@
-# Rails Mini Course - Sprint 2 Challenge - MusicLib
+# Ruby on Rails - Intermediate Ruby on Rails - Sprint Challenge - MusicLib
 
 ## Intro
 
